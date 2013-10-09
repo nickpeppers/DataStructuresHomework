@@ -82,7 +82,7 @@ namespace Homework3
             int primary, secondary;
 
             // "(" has less precedence
-            int[] precedence = { 0, 12, 12, 13, 13, 13 };
+            int[] precedence = { 0, 1, 1, 2, 2, 2 };
 
             primary = operatorString.IndexOf(firstOperator);
             secondary = operatorString.IndexOf(secondOperator);
